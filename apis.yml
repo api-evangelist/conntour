@@ -1,7 +1,33 @@
 aid: conntour
 name: Conntour
-description: Conntour is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Conntour is an Israeli AI video-intelligence company building a
+  natural-language search engine for security camera systems. Its vision and
+  language models let operators search any camera feed in plain language to find
+  any object, person, or situation in real time, raise automatic alerts, and
+  investigate recorded footage in seconds — turning passive surveillance into
+  active intelligence. Unlike legacy analytics that depend on preset object or
+  motion definitions, Conntour's models scale to thousands of concurrent feeds
+  (up to roughly 50 feeds per consumer GPU such as an Nvidia RTX 4090) and deploy
+  fully on-premises, in the cloud, or in a hybrid mix, either augmenting existing
+  VMS/security systems or serving as a standalone surveillance platform. Founded
+  in 2024 by Matan Goldner and Tomer Kola, the company serves intelligence
+  agencies, homeland security, law enforcement, military and defense,
+  transportation, and enterprise customers. It raised a $7M seed round in March
+  2026 led by General Catalyst, with participation from Y Combinator, SV Angel,
+  and Liquid 2 Ventures.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://conntour.com/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/conntour/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +37,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video Intelligence
+- Computer Vision
+- Physical Security
+- Surveillance
+- Artificial Intelligence
+- Video Analytics
+- Public Safety
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/conntour-domain-security.yml
+- type: Website
+  url: https://www.conntour.com
+- type: About
+  url: https://www.conntour.com/about
+- type: Blog
+  url: https://www.conntour.com/blog
+- type: Careers
+  url: https://www.conntour.com/careers
+- type: Support
+  url: https://www.conntour.com/contact
+- type: TermsOfService
+  url: https://conntour.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://conntour.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

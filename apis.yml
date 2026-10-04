@@ -52,7 +52,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Video Intelligence
-- Computer-Vision
+- Computer Vision
 - Physical Security
 - Surveillance
 - Artificial Intelligence
@@ -67,6 +67,7 @@ tags_raw:
 - Artificial Intelligence
 - Video Analytics
 - Public Safety
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
